@@ -2,7 +2,7 @@
   <h1>HEROES MODO DE JUEGO COOPERATIVO</h1>
   <div *ngIf="hayHeroes(); else sinheroes">
     <div class="row">
-      <div class="col-md-3 mx-auto my-5" *ngFor="let hero of heroes">
+      <div class="col-lg-3 mx-auto my-5" *ngFor="let hero of heroes">
         <!-- Tarjetas de heroes -->
         <div class="card" style="width: 15rem;">
           <img class="card-img-top img-fluid" src= {{hero.imagen}}>
